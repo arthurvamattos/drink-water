@@ -18,7 +18,6 @@ export const Logo = styled.Text`
 `;
 
 export const MainImage = styled.ImageBackground`
-  /* height: ${Dimensions.get("window").height * 0.64}px; */
   flex: 1%;
   border-radius: 32px;
   margin: 36px 0 16px;

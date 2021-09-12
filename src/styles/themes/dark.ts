@@ -9,10 +9,11 @@ export default {
     black: "#010202",
     white: "#F9F9F9",
 
-    text: "#010202",
+    text: "#F9F9F9",
 
     background: "#010202",
-    foreground: "#171F1F",
+    foreground: "#05060D",
+    gray: "#C1C1C3",
   },
 
   fonts,

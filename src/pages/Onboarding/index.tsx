@@ -6,7 +6,11 @@ import { Button } from "../../components/Button";
 
 import { Container, Logo, MainImage, BlurWrapper, Heading } from "./styles";
 
-export function Onboarding() {
+export function Onboarding({ navigation }) {
+  function navigateToConfig() {
+    navigation.navigate("Config");
+  }
+
   return (
     <Container>
       <Logo>Drink Water</Logo>
@@ -27,7 +31,7 @@ export function Onboarding() {
         </BlurWrapper>
       </MainImage>
 
-      <Button>Start</Button>
+      <Button onPress={navigateToConfig}>Start</Button>
     </Container>
   );
 }

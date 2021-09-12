@@ -13,6 +13,7 @@ export default {
 
     background: "#F9F9F9",
     foreground: "#FFFFFF",
+    gray: "#C1C1C3",
   },
 
   fonts,
